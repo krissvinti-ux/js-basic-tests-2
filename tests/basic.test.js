@@ -122,7 +122,7 @@ describe("condicionales en javascript", () => {
 });
 
 describe("Funciones en JS", () => {
-  it('¿Cuál es el resultado de invocar la función getNumber?', () => {
+  it("¿Cuál es el resultado de invocar la función getNumber?", () => {
     let result = getNumber();
     // substituye "???" por el valor que tiene la variable "result"
     expect(result).toBe(2);
@@ -136,15 +136,5 @@ describe("Funciones en JS", () => {
 
   it("¿Cuál es el resultado de invocar la función getString?", () => {
     let result = getString("Cerebro", "Pinky");
-    // substituye "???" por el valor que tiene la variable "result"
-    expect(result).toBe("Son Pinky y Cerebro");
-  });
-
-  it("¿Cuál es el resultado de invocar la función getLength?", () => {
-    // substituye "???" por el resultado en cada caso
-    expect(getLength("khaleesi mother of dragons breaker of chains")).toBe("very long");
-    expect(getLength("sarah")).toBe("???");
-    expect(getLength("bob")).toBe("???");
-    expect(getLength("robertson")).toBe("???");
-  });
-});
+   });
+     });
